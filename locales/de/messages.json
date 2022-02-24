@@ -4536,7 +4536,7 @@
         "english": "Roll [A]"
     },
     "controlAxisPitch": {
-        "message": "Pitch [E]",
+        "message": "Nick [E]",
         "english": "Pitch [E]"
     },
     "controlAxisYaw": {
@@ -4548,9 +4548,9 @@
         "english": "Throttle [T]"
     },
     "controlAxisCollective": {
-        "message": "Coll [C]",
+        "message": "Kollektiv [C]",
         "english": "Coll [C]",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "controlAxisAux1": {
         "message": "AUX 1",
