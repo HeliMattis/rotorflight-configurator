@@ -4070,17 +4070,17 @@
     "firmwareFlasherOptionLabelBuildTypeRelease": {
         "message": "Veröffentlichungen",
         "english": "Releases"
-        "status": "übersetzt HM"
+        "status": "Modified entry."
     },
     "firmwareFlasherOptionLabelBuildTypePreRelease": {
         "message": "Veröffentlichungen und Vorabveröffentlichungen",
         "english": "Releases and Pre-releases"
-        "status": "übersetzt HM"
+        "status": "Modified entry."
     },
     "firmwareFlasherOptionLabelBuildTypeDevelopment": {
         "message": "Alle Veröffentlichungen und Zwischenstände",
         "english": "All Releases and Snapshots"
-        "status": "übersetzt HM"
+        "status": "Modified entry."
     },
     "firmwareFlasherOptionLabelSelectFirmware": {
         "message": "Wähle eine Firmware / FC",
@@ -5010,8 +5010,7 @@
     "rateSetupMaxVel": {
         "message": "Max. Beschleunigung [Grad/s]",
         "english": "Max Vel [deg/s]"
-        "status": "Shouldn't that be called rotation rate? Müsste das nicht Drehrate heißen?
-    },
+      },
     "rateSetupRatesCurve": {
         "message": "Ratenvorschau Steuerkurve",
         "english": "Rates Curves",
@@ -5647,7 +5646,7 @@
     "powerVoltageWarning": {
         "message": "<span class=\"message-negative\">Warning:</span> Werte auf 25.5V begrenzt.",
         "english": "<span class=\"message-negative\">Warning:</span> Values limited to 25.5V.",
-        "status": "übersetzt HM"
+        "status": "New entry."
     },
     "powerVoltageValue": {
         "message": "$1 V",
@@ -5772,7 +5771,7 @@
     "powerAmperageWarning": {
         "message": "<span class=\"message-negative\">Warning:</span> Werte auf 63.5A begrenzt.",
         "english": "<span class=\"message-negative\">Warning:</span> Values limited to 63.5A.",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "powerAmperageValue": {
         "message": "$1 A",
@@ -7663,12 +7662,12 @@
     "blackboxDevice": {
         "message": "Blackbox Logging-Gerät",
         "english": "Blackbox logging device",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "blackboxRateOfLogging": {
         "message": "Blackbox Log-Geschwindigkeit",
         "english": "Blackbox logging rate",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "blackboxDebugMode": {
         "message": "Blackbox-Debugmodus",
@@ -7823,7 +7822,7 @@
         "message": "Keine",
         "english": "None",
         "description": "One of the options selectable for the GPS SBAS system",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "dialogFileNameTitle": {
         "message": "Dateiname",
@@ -7852,81 +7851,81 @@
     "cordovaWebviewTroubleshootingMsg": {
         "message": "Sie müssen die Webansicht Ihres Geräts aktualisieren, um den Konfigurator verwenden zu können.",
         "english": "You must update your device's webview in order to use the configurator.",
-        "status": "übersetzt HM"
+        "status": "New entry."
     },
     "cordovaWebviewTroubleshootingMsg2": {
         "message": "Das folgende Tool soll Ihnen helfen, eine neue Webansicht zu installieren oder eine bereits installierte Webansicht zu aktualisieren.",
         "english": "The tool below is intended to help you to install a new webview or to update an already installed webview.",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaAvailableWebviews": {
         "message": "Verfügbare Webansicht-Anwendungen auf Ihrem Gerät",
         "english": "Available webview applications on your device",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewInstall": {
         "message": "Die Installation der <b>{{app}}</b> App kann dieses Kompatibilitätsproblem beheben.",
         "english": "Installing the <b>{{app}}</b> app can resolve this compatibility issue.",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewInstallBtn": {
         "message": "Über den Google Play Store installieren",
         "english": "Install from the Google Play Store",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewUninstall": {
         "message": "Das Deinstallieren der <b>{{app}}</b> App kann dieses Kompatibilitätsproblem beheben. Wenn Sie sie nicht deinstallieren können, versuchen Sie, sie über die Einstellungs-App zu deaktivieren.",
         "english": "Uninstalling the <b>{{app}}</b> app can resolve this compatibility issue. If you are not able to uninstall it, try to disable it from the settings app.",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewUninstallBtn1": {
         "message": "Über den Google Play Store deistallieren",
         "english": "Uninstall from the Google Play Store",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewUninstallBtn2": {
         "message": "In den Einstellungen deinstallieren / deaktivieren",
         "english": "Uninstall / disable from the settings",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewUpdate": {
         "message": "Das Aktualisieren der <b>{{app}}</b> App kann dieses Kompatibilitätsproblem beheben.",
         "english": "Updating the <b>{{app}}</b> app can resolve this compatibility issue.",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewUpdateBtn": {
         "message": "Update aus dem Google Play Store",
         "english": "Update from the Google Play Store",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewEnable": {
         "message": "Gehen Sie in den Einstellungen auf die Registerkarte 'Informationen über Ihr Gerät' und tippen Sie 10 Mal auf die Build-Versionsnummer, um 'Entwickleroptionen' zu aktivieren. Danach gehen Sie in die Entwickleroptionen und wählen Sie <b>{{app}}</b> als Webansicht-Anbieter aus.",
         "english": "Go into the tab of informations about your device in the settings and tap 10 times on the build version number to enable 'Developper options'. After that, search and go in the developper options and select <b>{{app}}</b> as webview provider.",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaWebviewEnableBtn": {
         "message": "Einstellungen öffnen",
         "english": "Open settings",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaNoWebview": {
         "message": "Keine Webansicht-Anwendung installiert / aktiviert",
         "english": "No webview application installed / enabled",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },       
     "cordovaWebviewUsed": {
         "message": "verwendet",
         "english": "used",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaExitAppTitle": {
         "message": "Bestätigung",
         "english": "Confirmation",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     },
     "cordovaExitAppMessage": {
         "message": "Wollen Sie den Konfigurator wirklich schließen?",
         "english": "Do you really want to close the configurator?",
-        "status": "übersetzt HM"
+        "status": "New entry. "
     }
 }
