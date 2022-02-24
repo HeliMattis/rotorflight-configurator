@@ -4617,44 +4617,44 @@
         "english": "AUX 16"
     },
     "profilesPidGains": {
-        "message": "PID Controller Gains",
+        "message": "PID Regler Verstärkung",
         "english": "PID Controller Gains",
-        "status": "New entry. Please translate!"
+        "status": "New entry. Kontroller in Regler geändert"
     },
     "profilesPidSettings": {
-        "message": "PID Kontroller EInstellungen",
+        "message": "PID Regler Einstellungen",
         "english": "PID Controller Settings"
     },
     "profilesItermDecay": {
-        "message": "I Term Decay",
+        "message": "I-Term Abfallzeit",
         "english": "I Term Decay",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesItermDecayHelp": {
-        "message": "Bleeds off the current I Term vector when the craft is not fully spooled up. This helps preventing the craft from tipping over on the ground.",
+        "message": "Verhindert ein Anwachsen des I-Terms solange der Rotor hochläuft. Verhindert ein Umfallen des Helikopters durch I-Term Einfluss.",
         "english": "Bleeds off the current I Term vector when the craft is not fully spooled up. This helps preventing the craft from tipping over on the ground.",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesItermDecayTime": {
-        "message": "Decay Time",
+        "message": "Abfallzeit",
         "english": "Decay Time",
-        "status": "New entry. Please translate!"
+        "status": "New entry.  No Idea how to translate this properly"
     },
     "profilesItermRotation": {
         "message": "i-Term Drehung",
         "english": "I Term Rotation"
     },
     "profilesItermRotationHelp": {
-        "message": "Rotates the current Roll and Pitch I Term vectors around Yaw when the craft rotates. This is sometimes called Piro Compensation.",
+        "message": "Rotiert die Nick und Roll I-Term Werte um die Hochachse, wenn der Helikoter rotiert. Auch 'Pirouettenstabilität' 'Pirouette Consistency' oder 'Piro Compensation' genannt.",
         "english": "Rotates the current Roll and Pitch I Term vectors around Yaw when the craft rotates. This is sometimes called Piro Compensation.",
-        "status": "Modified entry. Please translate!"
+        "status": "Modified entry. "
     },
     "profilesItermRelax": {
         "message": "I Term Relax",
         "english": "I Term Relax"
     },
     "profilesItermRelaxHelp": {
-        "message": "Schränkt die Wirkung von I-Term bei schnelle Bewegungen ein. Das hilft \"Bounceback\" am Ende von schnellen Rollen und Bewegungen zu reduzieren. Die aktiven Achsen, als auch die Feedforward Methode bei schnelle Knüppelbewegungen, können gewählt werden.",
+        "message": "Schränkt die Wirkung von I-Term bei schnellen Bewegungen ein. Das hilft \"Bounceback\" am Ende von schnellen Rollen und Bewegungen zu reduzieren. Die aktiven Achsen, als auch die Feedforward Methode bei schnelle Knüppelbewegungen, können gewählt werden.",
         "english": "Limits the accumulation of I Term when fast movements happen. This helps specially to reduce the bounceback at the end of rolls and other fast movements. You can choose the axes in which this is active, and if the fast movement is detectd using the Gyro or the Setpoint (stick)."
     },
     "profilesItermRelaxAxes": {
@@ -4663,22 +4663,22 @@
         "description": "Iterm Relax Axes selection"
     },
     "profilesItermRelaxAxesOptionRP": {
-        "message": "RP (roll+pitch)",
+        "message": "RN (Roll+Nick)",
         "english": "RP"
     },
     "profilesItermRelaxAxesOptionRPY": {
-        "message": "RPY",
+        "message": "RNG (Roll+Nick+Gier)",
         "english": "RPY"
     },
     "profilesItermRelaxAxesOptionRPInc": {
-        "message": "RP (Increment ONLY)",
+        "message": "RN (Nur Erhöhung)",
         "english": "RP (Increment ONLY)",
-        "status": "Modified entry. Please translate!"
+        "status": "Modified entry. "
     },
     "profilesItermRelaxAxesOptionRPYInc": {
-        "message": "RPY (Increment ONLY)",
+        "message": "RNG (Nur Erhöhung)",
         "english": "RPY (Increment ONLY)",
-        "status": "Modified entry. Please translate!"
+        "status": "Modified entry. "
     },
     "profilesItermRelaxType": {
         "message": "Typ",
@@ -4694,59 +4694,59 @@
         "english": "Setpoint"
     },
     "profilesItermRelaxCutoffRoll": {
-        "message": "Cutoff Point for Roll",
+        "message": "I-Term Obergrenze Roll",
         "english": "Cutoff Point for Roll",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesItermRelaxCutoffPitch": {
-        "message": "Cutoff Point for Pitch",
+        "message": "I-Term Obergrenze Nick",
         "english": "Cutoff Point for Pitch",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesItermRelaxCutoffYaw": {
-        "message": "Cutoff Point for Yaw",
+        "message": "I-Term Obergrenze Heck",
         "english": "Cutoff Point for Yaw",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesItermRelaxCutoffHelp": {
-        "message": "Lower values suppress bounce-back after movements, high values increase high-rate turn precision.<br>Set to 15-30 for small helis, 10-15 for mid-size, and less than 10 for large.",
+        "message": "Verhinder 'Bounce-Backs', langsame Überschwinger nach schnellen Bewegungen. Höhere Werte verbessern die Präzision bei hohen Drehraten.<br>15-30 kleine Helis, 10-15 Mittel, weniger als 10 für grosse Helis (>=600).",
         "english": "Lower values suppress bounce-back after movements, high values increase high-rate turn precision.<br>Set to 15-30 for small helis, 10-15 for mid-size, and less than 10 for large.",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesCyclicNormalization": {
-        "message": "Rate normalization mode for cyclic",
+        "message": "Drehzahl Kompensation zyklische Rate",
         "english": "Rate normalization mode for cyclic",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesCyclicNormalizationHelp": {
-        "message": "More control action is needed at lower headspeeds to achieve the same Cyclic rate as at high headspeeds. Normalization accounts for headspeed changes. <br><strong>Absolute:</strong> Rotorflight will attempt to meet the requested Roll and Pitch rates as the headspeed varies. <br><strong>Linear:</strong> Small changes in Cyclic are normalized in feel similar to Absolute, but Linear will let the response drop over larger headspeed changes. <br><strong>Natural:</strong> Rotorflight will emulate the responsiveness of a flybared heli on Roll and Pitch as headspeed changes",
+        "message": "Bei niedrigen Drehzahlen sind grössere zykische Ausschläge notwendig. <br><strong>Absolute:</strong> Rotorflight versucht die gewünschte Drehrate um Roll und Nick bei verändernden Drehzahlen zu erreichen. <br><strong>Linear:</strong> Nur bei kleinen Drehzahlveränderungen werden zyklischen Steuereingaben normalisiert, bei grösseren ist die Ausgabe linear. <br><strong>Natural:</strong> Rotorflight versucht das Fluggefühl eines Paddel-Rotors zu emulieren",
         "english": "More control action is needed at lower headspeeds to achieve the same Cyclic rate as at high headspeeds. Normalization accounts for headspeed changes. <br><strong>Absolute:</strong> Rotorflight will attempt to meet the requested Roll and Pitch rates as the headspeed varies. <br><strong>Linear:</strong> Small changes in Cyclic are normalized in feel similar to Absolute, but Linear will let the response drop over larger headspeed changes. <br><strong>Natural:</strong> Rotorflight will emulate the responsiveness of a flybared heli on Roll and Pitch as headspeed changes",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesCollectiveNormalization": {
-        "message": "Rate normalization mode for collective",
+        "message": "Drehzahl Kompensation kollektiv",
         "english": "Rate normalization mode for collective",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesCollectiveNormalizationHelp": {
-        "message": "More control action is needed at lower headspeeds to achieve the same Collective rate as at high headspeeds. Normalization accounts for headspeed changes. <br><strong>Absolute:</strong> Rotorflight will attempt to meet the requested Collective rate as the headspeed varies. <br><strong>Linear:</strong> Small changes in Collective are normalized in feel similar to Absolute, but Linear will let the response drop over larger headspeed changes. <br><strong>Natural:</strong> Rotorflight will emulate the responsiveness of a flybared heli on Collective as headspeed changes.",
+        "message": "Bei geringen Drehzahlen sind grössere Ausschläge notwendig. <br><strong>Absolute:</strong> Rotorflight versucht die gewünschte kollektiv Veränderungbei verändernden Drehzahlen zu erreichen. <br><strong>Linear:</strong> Kleine veränderungen werden Kompensiert, allerdings nicht bei grösseren Drehzahleinbrüchen. <br><strong>Natural:</strong> Rotorflight versucht das Fluggefühl eines Paddel-Rotors zu emulieren.",
         "english": "More control action is needed at lower headspeeds to achieve the same Collective rate as at high headspeeds. Normalization accounts for headspeed changes. <br><strong>Absolute:</strong> Rotorflight will attempt to meet the requested Collective rate as the headspeed varies. <br><strong>Linear:</strong> Small changes in Collective are normalized in feel similar to Absolute, but Linear will let the response drop over larger headspeed changes. <br><strong>Natural:</strong> Rotorflight will emulate the responsiveness of a flybared heli on Collective as headspeed changes.",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesRateNormalizationNatural": {
         "message": "Natural",
         "english": "Natural",
-        "status": "New entry. Please translate!"
+        "status": "New entry.  ok"
     },
     "profilesRateNormalizationLinear": {
         "message": "Linear",
         "english": "Linear",
-        "status": "New entry. Please translate!"
+        "status": "New entry.  ok"
     },
     "profilesRateNormalizationAbsolute": {
         "message": "Absolute",
         "english": "Absolute",
-        "status": "New entry. Please translate!"
+        "status": "New entry.  ok jasc 24.02.2022"
     },
     "profilesLevelingSettings": {
         "message": "Auto-leveling Settings",
