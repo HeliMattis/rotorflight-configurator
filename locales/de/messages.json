@@ -2730,9 +2730,9 @@
         "status": "New entry.  I would keep it like that"
     },
     "mixerSwashRing": {
-        "message": "Swashring",
+        "message": "Taumelscheibenring",
         "english": "Swashring",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "mixerTailRotorSettings": {
         "message": "Einstellungen Heckrotor",
@@ -4749,9 +4749,9 @@
         "status": "New entry.  ok jasc 24.02.2022"
     },
     "profilesLevelingSettings": {
-        "message": "Auto-leveling Settings",
+        "message": "Auto-leveling Einstellungen",
         "english": "Auto-leveling Settings",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "profilesAcroTrainerGain": {
         "message": "Acro Trainer gain",
