@@ -4749,7 +4749,7 @@
         "status": "New entry.  ok jasc 24.02.2022"
     },
     "profilesLevelingSettings": {
-        "message": "Auto-leveling Einstellungen",
+        "message": "Auto-Leveling Einstellungen",
         "english": "Auto-leveling Settings",
         "status": "New entry. "
     },
@@ -4759,17 +4759,17 @@
         "status": "New entry. Please translate!"
     },
     "profilesAcroTrainerGainHelp": {
-        "message": "Acro Trainer gain. Acro trainer Mode is not self leveling but does limit the maximum pitch/roll angle. This determines how aggressively the helicopter tilts back to the maximum angle (if exceeded) while in Acro Trainer Mode",
+        "message": "Acro-Trainer-Verstärkung. Der Acro-Trainer-Modus ist nicht selbstnivellierend, begrenzt aber den maximalen Nick-/Rollwinkel. Dies bestimmt, wie aggressiv der Hubschrauber im Acro-Trainer-Modus auf den maximalen Winkel zurückkippt (falls dieser überschritten wird)",
         "english": "Acro Trainer gain. Acro trainer Mode is not self leveling but does limit the maximum pitch/roll angle. This determines how aggressively the helicopter tilts back to the maximum angle (if exceeded) while in Acro Trainer Mode",
         "status": "New entry. Please translate!"
     },
     "profilesAcroTrainerLimit": {
-        "message": "Acro Trainer angle limit",
+        "message": "Acro-Trainer-Winkelbegrenzung",
         "english": "Acro Trainer angle limit",
         "status": "New entry. Please translate!"
     },
     "profilesAcroTrainerLimitHelp": {
-        "message": "Acro Trainer angle limit. Acro Trainer mode does not self level (like Angle or Horizon Modes); however, it does limit the maximum angle the helicopter will pitch/roll to",
+        "message": "Acro-Trainer-Winkelbegrenzung. Der Acro Trainer Modus nivelliert sich nicht selbst (wie der Winkel- oder Horizontmodus); er begrenzt jedoch den maximalen Winkel, um den sich der Hubschrauber um die Nick/Rollachse neigt",
         "english": "Acro Trainer angle limit. Acro Trainer mode does not self level (like Angle or Horizon Modes); however, it does limit the maximum angle the helicopter will pitch/roll to",
         "status": "New entry. Please translate!"
     },
@@ -5902,9 +5902,9 @@
         "english": "OSD"
     },
     "osdSetupNoOsdChipDetectWarning": {
-        "message": "<span class=\"message-negative\"><b>WARNING:</b></span> No OSD chip was detected. Some flight controllers will not properly power the OSD chip unless connected to battery power. Please connect the battery before connecting the USB (PROPS REMOVED!).",
+        "message": "<span class=\"message-negative\"><b>WARNUNG:</b></span> Es wurde kein OSD-Chip erkannt. Einige Flugsteuerungen können den OSD-Chip nur dann mit Strom versorgen, wenn sie an den Akku angeschlossen sind. Bitte schließen Sie den Akku an, bevor Sie die USB-Verbindung herstellen (ROTORBLÄTTER ENTFERNEN!).",
         "english": "<span class=\"message-negative\"><b>WARNING:</b></span> No OSD chip was detected. Some flight controllers will not properly power the OSD chip unless connected to battery power. Please connect the battery before connecting the USB (PROPS REMOVED!).",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdSetupPreviewHelp": {
         "message": "<strong>Hinweis:</strong> Die OSD Vorschau zeigt möglicherweise nicht die aktuelle Schriftart, die auf dem Flugcontroller installiert ist. Das Layout einzelner Elemente kann anders aussehen, wenn ältere Versionen der Firmware verwendet werden - bitte überprüfe das Bild vor dem Fliegen in deiner FPV-Brille.",
@@ -5915,9 +5915,9 @@
         "english": "Your flight controller isn't responding to OSD commands. This probably means that it does not have an integrated BetaFlight OSD."
     },
     "osdSetupUnsupportedNote2": {
-        "message": "Note that some flight controllers have an onboard <a href=\"https://www.youtube.com/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD</a> that can be flashed and configured with <a href=\"https://github.com/ShikOfTheRa/scarab-osd/releases/latest\" target='_blank'>scarab-osd</a>, however the MinimOSD cannot be configured through this interface.",
+        "message": "Beachten Sie, dass einige Flugsteuerungen über ein eingebautes <a href=\"https://www.youtube.com/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD</a> verfügen, das mit <a href=\"https://github.com/ShikOfTheRa/scarab-osd/releases/latest\" target='_blank'>scarab-osd</a>, geflasht und konfiguriert werden kann. Das MinimOSD kann jedoch nicht über diese Schnittstelle konfiguriert werden..",
         "english": "Note that some flight controllers have an onboard <a href=\"https://www.youtube.com/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD</a> that can be flashed and configured with <a href=\"https://github.com/ShikOfTheRa/scarab-osd/releases/latest\" target='_blank'>scarab-osd</a>, however the MinimOSD cannot be configured through this interface.",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdSetupProfilesTitle": {
         "message": "OSD-Profilnummer",
@@ -6696,10 +6696,10 @@
         "english": "Display at most 4 channels values. The channels must be specified with the CLI variable 'osd_rcchannels'"
     },
     "osdTextElementCameraFrame": {
-        "message": "Camera frame",
+        "message": "Kamera Frame",
         "english": "Camera frame",
         "description": "One of the elements of the OSD",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdDescElementCameraFrame": {
         "message": "Fügt ein einstellbares Rahmenelement hinzu, das das Sichtfeld der HD-Kamera als Referenz zum Framing anzeigt.<br><br>Sie können die Breite und Höhe im CLI mit 'osd_camera_frame_width' und 'osd_camera_frame_height' anpassen",
@@ -6711,31 +6711,31 @@
         "description": "One of the elements of the OSD"
     },
     "osdDescElementEfficiency": {
-        "message": "Instantaneous battery consumption in mAh/distance.  (Requires valid GPS fix)",
+        "message": "Momentaner Batterieverbrauch in mAh/Entfernung.  (Erfordert einen gültigen GPS-Empfang)",
         "english": "Instantaneous battery consumption in mAh/distance.  (Requires valid GPS fix)",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdTextTotalFlights": {
-        "message": "Total flights",
+        "message": "Flüge insgesamt",
         "english": "Total flights",
         "description": "One of the elements of the OSD",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdDescTotalFlights": {
-        "message": "Approximate total number of flights",
+        "message": "Ungefähre Gesamtzahl der Flüge",
         "english": "Approximate total number of flights",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdTextElementUpDownReference": {
-        "message": "Up (Pitch 90 deg)/Down (Pitch -90 deg) Reference",
+        "message": "Aufwärts (Neigung 90 Grad)/Abwärts (Neigung -90 Grad) Bezug",
         "english": "Up (Pitch 90 deg)/Down (Pitch -90 deg) Reference",
         "description": "OSD Symbol to show when pitch is approaching vertical (90 deg, U) and D for nose down (-90 deg, D)",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdDescUpDownReference": {
-        "message": "OSD Symbol to show when pitch is approaching vertical (90 deg, U) and D for nose down (-90 deg, D)",
+        "message": "OSD-Symbol zur Anzeige, wenn sich die Neigung der Senkrechten nähert (90 Grad, U) und D für Nase nach unten (-90 Grad, D)",
         "english": "OSD Symbol to show when pitch is approaching vertical (90 deg, U) and D for nose down (-90 deg, D)",
-        "status": "New entry. Please translate!"
+        "status": "New entry. "
     },
     "osdTextElementUnknown": {
         "message": "Unbekannt $1",
