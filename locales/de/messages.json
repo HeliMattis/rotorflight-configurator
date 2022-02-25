@@ -613,7 +613,7 @@
         "english": "The following <strong>problems with your configuration</strong> were detected:"
     },
     "reportProblemsDialogFooter": {
-        "message": "Bitte <strong>beheben Sie diese Probleme, bevor Sie versuchen, Ihren Kopter</strong> zu fliegen.",
+        "message": "Bitte <strong>beheben Sie diese Probleme, bevor Sie versuchen, Ihren Heli<f</strong> zu fliegen.",
         "english": "Please <strong>fix these problems before attempting to fly your craft</strong>."
     },
     "reportProblemsDialogAPI_VERSION_MAX_SUPPORTED": {
@@ -626,7 +626,7 @@
         "status": "Modified entry. "
     },
     "reportProblemsDialogACC_NEEDS_CALIBRATION": {
-        "message": "<strong>Der Beschleunigungsmesser ist aktiviert, aber nicht kalibriert</strong>.<br>Wenn Sie den Beschleunigungsmesser verwenden wollen, folgen Sie bitte den Anweisungen für '$t(initialSetupButtonCalibrateAccel.message)' auf der Registerkarte '$t(tabSetup.message)' Wenn eine Funktion, die den Beschleunigungsmesser benötigt (Auto-Level-Modi, GPS-Rettung, u. ä.) aktiviert ist, wird das Scharfstellen des Kopters deaktiviert. Solange, bis der Beschleunigungsmesser kalibriert ist.<br>Wenn Sie nicht planen, den Beschleunigungsmesser zu verwenden, wird empfohlen, dass Sie ihn in '$t(configurationSystem.message)' auf der Registerkarte '$t(tabConfiguration.message)' deaktivieren.",
+        "message": "<strong>Der Beschleunigungsmesser ist aktiviert, aber nicht kalibriert</strong>.<br>Wenn Sie den Beschleunigungsmesser verwenden wollen, folgen Sie bitte den Anweisungen für '$t(initialSetupButtonCalibrateAccel.message)' auf der Registerkarte '$t(tabSetup.message)' Wenn eine Funktion, die den Beschleunigungsmesser benötigt (Auto-Level-Modi, GPS-Rettung, u. ä.) aktiviert ist, wird das Scharfstellen des Helis deaktiviert. Solange, bis der Beschleunigungsmesser kalibriert ist.<br>Wenn Sie nicht planen, den Beschleunigungsmesser zu verwenden, wird empfohlen, dass Sie ihn in '$t(configurationSystem.message)' auf der Registerkarte '$t(tabConfiguration.message)' deaktivieren.",
         "english": "<strong>the accelerometer is enabled but it is not calibrated</strong>.<br>If you plan to use the accelerometer, please follow the instructions for '$t(initialSetupButtonCalibrateAccel.message)' on the '$t(tabSetup.message)' tab. If any function that requires the accelerometer (auto level modes, GPS rescue, ...) is enabled, arming of the craft will be disabled until the accelerometer has been calibrated.<br>If you are not planning on using the accelerometer it is recommended that you disable it in '$t(configurationSystem.message)' on the '$t(tabConfiguration.message)' tab."
     },
     "infoVersions": {
