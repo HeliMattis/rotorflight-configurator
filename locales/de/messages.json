@@ -4540,11 +4540,11 @@
         "english": "Pitch [E]"
     },
     "controlAxisYaw": {
-        "message": "Yaw [R]",
+        "message": "Gier [R]",
         "english": "Yaw [R]"
     },
     "controlAxisThrottle": {
-        "message": "Throttle [T]",
+        "message": "Gas [T]",
         "english": "Throttle [T]"
     },
     "controlAxisCollective": {
